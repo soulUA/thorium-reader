@@ -1,0 +1,439 @@
+{
+"accessibility": {
+"bookMenu": "Меню",
+"closeDialog": "Закрити",
+"importFile": "Імпортувати книгу",
+"leftSlideButton": "Пересуньте список ліворуч",
+"mainContent": "основний зміст",
+"rightSlideButton": "Пересуньте список праворуч",
+"searchBook": "Пошук за назвою",
+"skipLink": "Перейти до змісту",
+"toolbar": "панель інструментів"
+},
+"apiapp": {
+"noLibraryFound": "Бібліотеки не знайдено ({{- name}})"
+},
+"app": {
+"edit": {
+"copy": "Копіювати",
+"cut": "Вирізати",
+"paste": "Вставити",
+"redo": "Повторити",
+"selectAll": "Вибрати все",
+"title": "Редагувати",
+"undo": "Відмінити"
+},
+"hide": "Приховати {{- appName}}",
+"quit": "Вийти {{- appName}}",
+"session": {
+"exit": {
+"askBox": {
+"button": {
+"no": "Ні",
+"yes": "Так"
+},
+"message": "Ви хочете зберегти сесію?",
+"title": "Зберегти сесію"
+}
+}
+},
+"window": {
+"showLibrary": "Показати бібліотеку / книжкову полицю"
+}
+},
+"catalog": {
+"about": {
+"button": "Більше інформації",
+"title": "Про {{- appName}}"
+},
+"addBookToLib": "Імпорт",
+"addTags": "Додати тег",
+"addTagsButton": "додати",
+"allBooks": "Всі книги",
+"bookInfo": "Про цю книгу",
+"column": {
+"ascending": "А-Я",
+"descending": "Я-А",
+"unsorted": "без сортування"
+},
+"delete": "Видалити",
+"deleteBook": "Видалити",
+"deleteTag": "Видалити тег",
+"description": "Опис",
+"emptyTagList": "У вас немає електронної книги з тегом.",
+"entry": {
+"continueReading": "Продовжити читання",
+"continueReadingAudioBooks": "Продовжити прослуховування",
+"continueReadingDivina": "Продовжити divina",
+"continueReadingPdf": "Продовжити PDF",
+"lastAdditions": "Нещодавно додано"
+},
+"export": "Експорт",
+"format": "Формат",
+"lang": "Мова",
+"lastRead": "Останнє читання",
+"moreInfo": "Детальна інформація про книжку",
+"myBooks": "Мої книги.",
+"noPublicationHelpL1": "Перетягніть книгу сюди",
+"noPublicationHelpL2": "або скористайтеся кнопкою \"+\" вище.",
+"noPublicationHelpL3": "Підтримуються файли, захищені LCP.",
+"noPublicationHelpL4": "Підтримувані розширення:",
+"numberOfPages": "Кількість сторінок",
+"opds": {
+"auth": {
+"cancel": "Відмінити",
+"login": "Логін"
+},
+"info": {
+"availableSince": "Відколи",
+"availableState": {
+"available": "Доступно",
+"ready": "Готово",
+"reserved": "Зарезервовано",
+"unavailable": "Недоступно",
+"unknown": "Невідомо"
+},
+"availableUntil": "Доки",
+"copyAvalaible": "Доступно",
+"copyTotal": "Копії",
+"holdPosition": "Ваша позиція",
+"holdTotal": "Утримується",
+"numberOfItems": "Кількість товарів",
+"priveValue": "Ціна",
+"state": "Стан"
+}
+},
+"publisher": "Видавництво",
+"readBook": "Прочитати",
+"released": "Опубліковано на",
+"sort": "Сортувати за",
+"tagCount": "Кількість тегів",
+"tags": "Теги",
+"update": "Редагувати"
+},
+"dialog": {
+"cancel": "Відмінити",
+"closeModalWindow": "Закрити це модальне вікно",
+"deleteFeed": "Ви дійсно хочете видалити цей каталог?",
+"deletePublication": "Ви дійсно хочете видалити цю публікацію?",
+"import": "Ви дійсно хочете імпортувати ці файли:",
+"importError": "сталася помилка, перевірте розширення файлу ({{acceptedExtension}})",
+"renew": "Ви дійсно хочете продовжити ліцензію на цю публікацію?",
+"return": "Ви дійсно хочете повернути ліцензію на цю публікацію?",
+"yes": "Так"
+},
+"error": {
+"errorBox": {
+"error": "Повідомлення про помилку:",
+"message": "Виникла помилка в {{- filename}}",
+"title": "Внутрішня {{- appName}} помилка"
+}
+},
+"header": {
+"allBooks": "Всі книги",
+"books": "Мої книги",
+"catalogs": "Каталоги",
+"downloads": "Завантаження",
+"gridTitle": "Вид сітки",
+"home": "Меню книжкової полиці",
+"homeTitle": "дім",
+"importTitle": "Імпорт публікації",
+"listTitle": "Перегляд списку",
+"refreshTitle": "перезавантажити",
+"searchPlaceholder": "Пошук",
+"searchTitle": "Почати пошук",
+"settings": "Налаштування"
+},
+"library": {
+"lcp": {
+"hint": "(Підказка: {{- hint}})",
+"password": "Пароль",
+"sentence": "Щоб відкрити цю публікацію, потрібна парольна фраза LCP: ",
+"submit": "Надіслати",
+"urlHint": "Забули пароль? Знайдіть допомогу тут"
+}
+},
+"message": {
+"download": {
+"error": "Завантаження {{- title}} не вдалося: [{{- err}}]"
+},
+"import": {
+"alreadyImport": "{{- title}} вже було імпортовано",
+"fail": "Імпортувати {{- path}} не вдалося. {{- err}}",
+"success": "Імпорт {{- title}} завершено."
+},
+"open": {
+"error": "Публікацію не вдається відкрити: {{- err}}"
+}
+},
+"opds": {
+"addForm": {
+"addButton": "Додати",
+"name": "Ім'я:",
+"namePlaceholder": "Ім'я",
+"title": "Додати канал OPDS",
+"url": "Посилання:",
+"urlPlaceholder": "Посилання"
+},
+"addFormApiapp": {
+"title": "Додати обліковий запис бібліотеки"
+},
+"addMenu": "Додати канал OPDS",
+"back": "Назад",
+"breadcrumbRoot": "Каталоги",
+"empty": "Публікацію не знайдено",
+"firstPage": "Перша",
+"lastPage": "Остання",
+"menu": {
+"aboutBook": "Про цю книгу",
+"addExtract": "Імпортувати фрагмент",
+"goBuyBook": "Купити книгу",
+"goLoanBook": "Взяти книгу",
+"goRevokeLoanBook": "Відкликати позику",
+"goSubBook": "Підписатись"
+},
+"network": {
+"error": "Помилка доступу",
+"noInternet": "Немає інтернету",
+"noInternetMessage": "Спробуйте: перевірте мережевий кабель, модем, роутер або wifi",
+"reject": "Вибачте, сталася помилка при обробці",
+"timeout": "Закінчився час очікуання мережі, будь ласка, повторіть спробу пізніше"
+},
+"next": "Наступна",
+"previous": "Попередня",
+"shelf": "Полиця",
+"updateForm": {
+"name": "Ім'я:",
+"title": "Редагування стрічки OPDS",
+"updateButton": "Редагувати",
+"url": "Посилання:"
+}
+},
+"publication": {
+"accessibility": {
+"accessModeSufficient": {
+"textual": "Зручний для читання TTS & Screen"
+},
+"accessibilityFeature": {
+"alternativeText": "Містить альтернативний текст",
+"displayTransformability": "Адаптивний текст і макет",
+"longDescription": "Повні описи графічних ресурсів",
+"printPageNumbers": "Посилання на сторінки друкованої книги",
+"readingOrder": "Містить порядок читання",
+"synchronizedAudioText": "Текст та аудіо синхронізовано",
+"tableOfContents": "Містить зміст"
+},
+"accessibilityHazard": {
+"flashing": "Блимання",
+"motionSimulation": "Імітація руху",
+"name": "Небезпека:",
+"noFlashing": "Не блимати",
+"noMotionSimulation": "Без імітації руху",
+"noSound": "Без звуку",
+"none": "Нема",
+"sound": "Звук",
+"unknown": "Невідомо"
+},
+"certifierReport": "Звіт сертифікаційного центру",
+"conformsTo": "Відповідає вимогам:",
+"moreInformation": "Більше інформації",
+"name": "Доступність",
+"noA11y": "Інформація про доступність відсутня"
+},
+"audio": {
+"tracks": "Треки"
+},
+"author": "Автор",
+"cancelledLcp": "Цю книгу не можна відкрити, оскільки ліцензію LCP анульовано.",
+"certificateRevoked": "Сертифікат відкликано",
+"certificateSignatureInvalid": "Підпис на сертифікаті недійсний",
+"cover": {
+"img": "зображення обкладинки"
+},
+"duration": {
+"title": "Тривалість"
+},
+"expiredLcp": "Цю книгу не можна прочитати, оскільки термін дії ліцензії LCP закінчився.",
+"lcpEnd": "Кінець",
+"lcpRightsCopy": "Скопійовані символи",
+"lcpRightsPrint": "Друковані сторінки",
+"lcpStart": "Старт",
+"licenseOutOfDate": "Ліцензія застаріла",
+"licenseSignatureDateInvalid": "Дата підписання ліцензії недійсна",
+"licenseSignatureInvalid": "Підпис ліцензії недійсний",
+"progression": {
+"title": "Прогрес"
+},
+"renewButton": "Поновити",
+"returnButton": "Повернути",
+"returnedLcp": "Цю книгу не можна читати, оскільки ліцензію LCP було відкликано.",
+"revokedLcp": "Цю книгу не можна читати, оскільки ліцензію LCP було відкликано.",
+"seeLess": "Бачити менше",
+"seeMore": "Бачити більше",
+"title": "Заголовок",
+"userKeyCheckInvalid": "Неправильна парольна фраза"
+},
+"reader": {
+"divina": {
+"mute": "вимкнути звук",
+"unmute": "ввімкнути звук"
+},
+"footerInfo": {
+"lessInfo": "менше інформації",
+"moreInfo": "більше інформації"
+},
+"marks": {
+"annotations": "Анотації",
+"bookmarks": "Закладки",
+"delete": "Видалити",
+"edit": "Редагувати",
+"landmarks": "Орієнтири",
+"search": "Пошук",
+"toc": "Зміст"
+},
+"media-overlays": {
+"activate": "Ввімкнути Читання вголос",
+"captions": "Титри / чистий перегляд",
+"next": "Читати вголос Наступне",
+"pause": "Пауза Читання вголос",
+"play": "Слухати вголос",
+"previous": "Читати вголос Попереднє",
+"skip": "Пропустити",
+"speed": "Швидкість відтворення",
+"stop": "Зупинити Читання вголос",
+"title": "Читати вголос"
+},
+"navigation": {
+"backHomeTitle": "назад до книжкової полиці",
+"bookmarkTitle": "закладка",
+"currentPage": "Поточна сторінка: {{- current}}",
+"currentPageTotal": "Поточна сторінка: {{- current}}/{{- total}}",
+"detachWindowTitle": "показати бібліотеку / вікно книжкової полиці",
+"fullscreenTitle": "відкрити повноекранний режим",
+"goTo": "Перейти до",
+"goToError": "Цей розрив сторінки не існує",
+"goToPlaceHolder": "Введіть номер сторінки",
+"goToTitle": "Перейти на сторінку",
+"historyNext": "Стрибок вперед",
+"historyPrevious": "Стрибок назад",
+"infoTitle": "інформація",
+"magnifyingGlassButton": "пошук в публікації",
+"openTableOfContentsTitle": "навігація",
+"pdfscalemode": "Формат або ширина сторінки",
+"quitFullscreenTitle": "вийти з повноекранного режиму",
+"readBookTitle": "почати читати книгу",
+"settingsTitle": "налаштування"
+},
+"picker": {
+"annotationTitle": "Анотації:",
+"search": {
+"founds": "{{- nResults}} збіг(и)",
+"input": "відповідний текст",
+"next": "Далі",
+"notFound": "немає співпадінь",
+"previous": "Попередня",
+"submit": "Знайти"
+},
+"searchTitle": "Пошук:"
+},
+"settings": {
+"column": {
+"auto": "Автоматично",
+"one": "1 колонка",
+"oneTitle": "одна колонка",
+"title": "Колонки",
+"two": "1 колонки",
+"twoTitle": "дві колонки"
+},
+"display": "Відображення",
+"disposition": {
+"title": "Макет"
+},
+"font": "Шрифт",
+"fontSize": "Розмір шрифту",
+"justification": "Вирівнювання",
+"justify": "Розташування",
+"letterSpacing": "Інтервал між літерами",
+"lineSpacing": "Міжрядковий інтервал",
+"margin": "Відступ",
+"noFootnotes": "Вимкнути виноски",
+"paginated": "Посторінково",
+"paraSpacing": "Інтервал між абзацами",
+"pdfZoom": {
+"name": {
+"100pct": "100 %",
+"150pct": "150 %",
+"200pct": "200 %",
+"300pct": "300 %",
+"500pct": "500 %",
+"50pct": "50 %",
+"fit": "припасування сторінки",
+"width": "ширина сторінки"
+},
+"title": "Збільшення"
+},
+"reduceMotion": "Зменшити рух",
+"save": {
+"apply": "зберегти",
+"reset": "перезавантажити",
+"title": "Конфігурація"
+},
+"scrolled": "Прокрутка",
+"spacing": "Інтервал",
+"text": "Текст",
+"theme": {
+"name": {
+"Neutral": "Нейтральна",
+"Night": "Темна",
+"Sepia": "Сепія"
+},
+"title": "Тема"
+},
+"wordSpacing": "Міжслівний інтервал"
+},
+"svg": {
+"left": "Зліва",
+"right": "Справа"
+},
+"toc": {
+"publicationNoToc": "ця публікація не містить змісту"
+},
+"tts": {
+"activate": "Активувати читання тексту",
+"default": "Голос: за замовчуванням",
+"next": "Наступний текст для читання",
+"pause": "Пауза читання тексту",
+"play": "Відтворення читання тексту",
+"previous": "Попередній текст для читання",
+"sentenceDetect": "Розділений текст для читання",
+"speed": "Швидкість відтворення тексту для читання",
+"stop": "Зупинити відтворення тексту для читання",
+"voice": "Перетворення тексту в голос"
+}
+},
+"settings": {
+"auth": {
+"wipeData": "Видалення даних автентифікації"
+},
+"keyboard": {
+"advancedMenu": "Меню",
+"cancel": "Відмінити",
+"edit": "Редагувати",
+"editUserJson": "Редагувати файл користувача...",
+"hide": "Сховати",
+"keyboardShortcuts": "Гаряі клавіші",
+"loadUserJson": "Load from user file",
+"resetDefaults": "Reset (load defaults)",
+"save": "Зберегти",
+"show": "показати"
+},
+"language": {
+"languageChoice": "Вибір мови"
+},
+"session": {
+"no": "Виключити",
+"title": "Зберегти сесію",
+"yes": "Включити"
+}
+}
+}
